@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./styled";
-import MinhaFoto from "../../images/minhafoto.jpg"
+import MinhaFoto from "../../images/eupequeno.jpg"
 
 
 export default function SecondSection() {
@@ -9,13 +9,18 @@ export default function SecondSection() {
     <S.ContainerSecondSection id="Formação">
       <h2>Formação</h2>
       <div>
-        <img src={MinhaFoto} alt="Primeira curiosidade" />
-        <p>Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo. Delegadis gente finis, bibendum egestas augue arcu ut est. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
-      </div>
-      <div>
-      <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Atirei o pau no gatis, per gatis num morreus. Cevadis im ampola pa arma uma pindureta. Leite de capivaris, leite de mula manquis sem cabeça.</p>
-        <img src={MinhaFoto} alt="Segunda curiosidade" />        
-      </div>
+        <figure>
+        <S.MyIMG src={MinhaFoto} alt="Formação" />
+        </figure>
+        <ul>
+          <li><p>Formado em HTML5, CSS3, Lógica de Programação, JavaScript e ReactJS, no Programa Vai na Web.</p></li>
+          <li><p>Formado em Redes de Computador , na Universidade Estácio de Sá.</p></li>
+          <li><p>Formado em Operador de Computador, pelo SENAI.</p></li>
+          <li><p>Formado em Assistente Administrativo, pelo SENAI.</p></li>
+          <li><p>Formado em Eletricista de Manunetção Industrial, pelo SENAI.</p></li>
+          <li><p>Formado em Informática Básica e Avançada, pela M Data.</p></li>        
+        </ul>
+      </div>      
     </S.ContainerSecondSection>
   )
 

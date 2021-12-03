@@ -71,8 +71,35 @@ width: 100%;
 padding-top:10vh;
 div{
     display: flex;    
+        
 }
-img{
-    width: 30%;    
-}   
+h2{
+    color: white;
+    font-size: 30px;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    width: 70%;
+    list-style: none;
+    padding: 0;
+}
+li{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
 `
