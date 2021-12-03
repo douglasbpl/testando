@@ -70,7 +70,11 @@ align-items: center;
 width: 100%;
 padding-top:10vh;
 div{
-    display: flex;    
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+        
         
 }
 h2{
