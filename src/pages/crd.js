@@ -2,7 +2,7 @@ import React from 'react';
 import { Curiosidades } from "../components/Curiosidades/curiosidades";
 import { Helmet } from 'react-helmet';
 import { createGlobalStyle } from 'styled-components';
-import { Footer } from '../components/Footer';
+
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -22,7 +22,7 @@ export default function Crd() {
        <h1>Projeto Blog</h1>
       </Helmet>
       <Curiosidades/>
-        <Footer/>         
+             
     </div>
   )
 }

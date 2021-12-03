@@ -2,7 +2,7 @@ import React from 'react';
 import { Projetos } from "../components/Projetos/projetos";
 import { Helmet } from 'react-helmet';
 import { createGlobalStyle } from 'styled-components';
-import { Footer } from '../components/Footer';
+
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -22,8 +22,7 @@ export default function Prj() {
        <Helmet>
        <h1>Projeto Blog</h1>
       </Helmet>
-      <Projetos/>
-      <Footer/>   
+      <Projetos/>       
     </div>
   )
 }

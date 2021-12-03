@@ -42,13 +42,6 @@ li:hover{
     background-color: #24ada5;
     color:gold;    
 }
-a{
-    text-decoration:none;
-    color:white;
-}
-a:hover{
-    color:gold;
-}
 
 img{
     width:50px;         
