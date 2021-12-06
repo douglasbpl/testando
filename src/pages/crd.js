@@ -11,9 +11,9 @@ export default function Crd() {
     <div>
       <GlobalStyle />
        <Helmet>
-       <h1>Projeto Blog</h1>
+       <title>Meu BLog</title>
       </Helmet>
-      {/* <Curiosidades/> */}
+      <Curiosidades/>
       <Footer/>
     </div>
   )

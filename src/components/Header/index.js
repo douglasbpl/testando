@@ -30,14 +30,14 @@ export function Header() {
     <S.ContainerHeader id="Home">
         <S.ContainerMenuFixed>          
           <S.MenuFixed>
-          <img src={logoheader.url}  alt="Minha foto em desenho" />            
+          <img src={logoheader.url}  alt="Minha foto em desenho" className="animated.flip"/>            
               <ul>
-              <li><Link style={{ color: "white", textDecoration: "none", }} to="#Home">{bthome}</Link></li>
-              <li><Link style={{ color: "white", textDecoration: "none", }} to="#Sobre">{btsobre}</Link></li>
-              <li><Link style={{ color: "white", textDecoration: "none", }} to="#Formação">{btform}</Link>  </li>           
-              <li><Link style={{ color: "white", textDecoration: "none", }} to="/crd">{btcrd}</Link></li>
-              <li><Link style={{ color: "white", textDecoration: "none", }} to="/prj">{btprj}</Link> </li>   
-              <li><Link style={{ color: "white", textDecoration: "none", }} to="#Contatos">{btcontatos}</Link></li> 
+              <Link style={{ color: "white", textDecoration: "none" }} to="#Home"><li>{bthome}</li></Link>
+              <Link style={{ color: "white", textDecoration: "none" }} to="#Sobre"><li>{btsobre}</li></Link>
+              <Link style={{ color: "white", textDecoration: "none" }} to="#Formação"><li>{btform}</li></Link>             
+              <Link style={{ color: "white", textDecoration: "none" }} to="/crd"><li>{btcrd}</li></Link>
+              <Link style={{ color: "white", textDecoration: "none" }} to="/prj"><li>{btprj}</li></Link>    
+              <Link style={{ color: "white", textDecoration: "none" }} to="#Contatos"><li>{btcontatos}</li></Link>   
               </ul>            
               </S.MenuFixed>         
           </S.ContainerMenuFixed>

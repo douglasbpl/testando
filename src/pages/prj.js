@@ -13,9 +13,9 @@ export default function Prj() {
     <div>
       <GlobalStyle />
        <Helmet>
-       <h1>Projeto Blog</h1>
+       <title>Meu BLog</title>
       </Helmet>
-      {/* <Projetos/> */}
+      <Projetos/>
       <Footer/>       
     </div>
   )

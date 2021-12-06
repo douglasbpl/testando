@@ -15,7 +15,7 @@ export default function Index() {
     <div>
       <GlobalStyle />
       <Helmet>
-      <h1>Projeto Blog</h1>
+      <title>Meu BLog</title>
       </Helmet>
       <Header />
       <Main />
