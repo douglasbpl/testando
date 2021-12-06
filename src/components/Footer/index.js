@@ -1,7 +1,6 @@
 import React from "react";
 import * as S from "./styled";
 import { Link } from "gatsby"
-
 import { graphql, useStaticQuery } from 'gatsby'
 
 
@@ -34,7 +33,7 @@ export function Footer() {
 
     <S.ContainerFooter id="Contatos">
       <S.Container>
-        <S.BoxMenuFSection>
+        {/* <S.BoxMenuFSection>
           <div>
             <h3>{btmenu}</h3>
             <ul>
@@ -52,7 +51,7 @@ export function Footer() {
             </ul>
           </div>
 
-        </S.BoxMenuFSection>
+        </S.BoxMenuFSection> */}
       </S.Container>
       <S.BoxsocialNetwork>
         <ul>
