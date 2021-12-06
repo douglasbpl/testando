@@ -32,12 +32,12 @@ export function Header() {
           <S.MenuFixed>
           <img src={logoheader.url}  alt="Minha foto em desenho" />            
               <ul>
-              <li><Link style={{ color: "white", textDecoration: "none" }} to="Home">{bthome}</Link></li>
-              <li><Link style={{ color: "white", textDecoration: "none" }} to="Sobre">{btsobre}</Link></li>
-              <li><Link style={{ color: "white", textDecoration: "none" }} to="Formação">{btform}</Link>  </li>           
-              <li><Link style={{ color: "white", textDecoration: "none" }} to="/crd">{btcrd}</Link></li>
-              <li><Link style={{ color: "white", textDecoration: "none" }} to="/prj">{btprj}</Link> </li>   
-              <li><Link style={{ color: "white", textDecoration: "none" }} to="Contatos">{btcontatos}</Link></li> 
+              <li><Link style={{ color: "white", textDecoration: "none", }} to="#Home">{bthome}</Link></li>
+              <li><Link style={{ color: "white", textDecoration: "none", }} to="#Sobre">{btsobre}</Link></li>
+              <li><Link style={{ color: "white", textDecoration: "none", }} to="#Formação">{btform}</Link>  </li>           
+              <li><Link style={{ color: "white", textDecoration: "none", }} to="/crd">{btcrd}</Link></li>
+              <li><Link style={{ color: "white", textDecoration: "none", }} to="/prj">{btprj}</Link> </li>   
+              <li><Link style={{ color: "white", textDecoration: "none", }} to="#Contatos">{btcontatos}</Link></li> 
               </ul>            
               </S.MenuFixed>         
           </S.ContainerMenuFixed>

@@ -128,9 +128,9 @@ export default function SimpleSlider() {
       <S.Card>
         <h2>{mod2}</h2>
         <Carousel {...settings}>
-          {dataprj.slice(5, 10).map((mod1, index) => (            
+          {dataprj.slice(5, 10).map((mod2, index) => (            
               <div key={index}>
-                <img src={mod1.img} alt="Miniatura do Projeto" />
+                <img src={mod2.img} alt="Miniatura do Projeto" />
               </div>
           ))}
         </Carousel>
@@ -139,9 +139,9 @@ export default function SimpleSlider() {
       <S.Card>
         <h2>{mod3}</h2>
         <Carousel {...settings}>
-          {dataprj.slice(10, 14).map((mod1, index) => (            
+          {dataprj.slice(10, 14).map((mod3, index) => (            
               <div key={index}>
-                <img src={mod1.img} alt="Miniatura do Projeto" />
+                <img src={mod3.img} alt="Miniatura do Projeto" />
               </div>
           ))}
         </Carousel>

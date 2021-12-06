@@ -26,8 +26,8 @@ export function Projetos() {
         <S.ContainerMenuFixed>
           <S.MenuFixedPM>
             <ul>
-              <li><Link style={{ color: "white", textDecoration: "none" }} to="/" >{bthome}</Link></li>
-              <li><Link style={{ color: "white", textDecoration: "none" }} to="/crd">{btcrd}</Link></li>
+              <li><Link style={{ color: "white", textDecoration: "none", }} to="/" >{bthome}</Link></li>
+              <li><Link style={{ color: "white", textDecoration: "none", }} to="/crd">{btcrd}</Link></li>
 
             </ul>
           </S.MenuFixedPM>
