@@ -13,7 +13,7 @@ export default function Crd() {
        <Helmet>
        <h1>Projeto Blog</h1>
       </Helmet>
-      <Curiosidades/>
+      {/* <Curiosidades/> */}
       <Footer/>
     </div>
   )
