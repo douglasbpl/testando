@@ -18,7 +18,7 @@ export function Projetos() {
         }
     `)
 
-    const { bthome, btcrd, ttlprj} = data.alldata.projetos[0]
+    const { bthome, btcrd} = data.alldata.projetos[0]
   return (
     <div>
         
@@ -26,8 +26,8 @@ export function Projetos() {
               <S.ContainerMenuFixed>
         <S.MenuFixedPM>
           <ul>
-            <Link style={{ color: "white", textDecoration: "none" }} to="/" ><li>Home</li></Link>
-            <Link  style={{ color: "white", textDecoration: "none" }} to="/crd"><li>Curiosidades</li></Link>
+            <li><Link style={{ color: "white", textDecoration: "none" }} to="/" >{bthome}</Link></li>
+            <li><Link  style={{ color: "white", textDecoration: "none" }} to="/crd">{btcrd}</Link></li>
             
           </ul>
         </S.MenuFixedPM>

@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from "./styled";
-import { Link } from "gatsby"
 import { graphql, useStaticQuery } from 'gatsby'
 
 
