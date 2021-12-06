@@ -19,7 +19,6 @@ export const MenuFixedPM = styled.nav`
 display:flex;
 align-items:center;
 justify-content:space-evenly;
-font: 700 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 width:100%;
 
 ul{
