@@ -23,14 +23,22 @@ export function Projetos() {
     <div>
 
       <S.Container>
-        <S.ContainerMenuFixed>
+        {/* <S.ContainerMenuFixed>
           <S.MenuFixedPM>
             <S.List>
               <Link style={{ color: "white", textDecoration: "none" }} to="/"><S.ListItem>{bthome}</S.ListItem></Link>
               <Link style={{ color: "white", textDecoration: "none" }} to="/crd"><S.ListItem>{btcrd}</S.ListItem></Link>
             </S.List>
           </S.MenuFixedPM>
-        </S.ContainerMenuFixed>
+        </S.ContainerMenuFixed> */}
+
+<div>
+            <ul>
+      <li><Link to="/" >home</Link></li>
+        <li><Link to="/crd" >curiosidades</Link></li>
+      <li><Link to="#Contatos" >contatos</Link></li>
+    </ul>
+    </div>
 
         <S.ContainerSlide>
           <SimpleSlider />

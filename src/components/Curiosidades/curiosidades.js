@@ -7,14 +7,21 @@ import * as S from './styled'
 export function Curiosidades() {
     return (
         <div>
-            <S.ContainerMenuFixed>
+            {/* <S.ContainerMenuFixed>
                 <S.MenuFixedPM>
                     <S.List>
                         <Link to="/" style={{ color: "white", textDecoration: "none" }}><S.ListItem>Home</S.ListItem></Link>
                         <Link to="/prj" style={{ color: "white", textDecoration: "none" }} ><S.ListItem>Projetos</S.ListItem></Link>
                     </S.List>
                 </S.MenuFixedPM>
-            </S.ContainerMenuFixed>
+            </S.ContainerMenuFixed> */}
+<div>
+            <ul>
+      <li><Link to="/" >home</Link></li>
+        <li><Link to="/prj" >projeto</Link></li>
+      <li><Link to="#Contatos" >contatos</Link></li>
+    </ul>
+    </div>
             <S.ContainerSection>
                 <S.TittleSecoSection >Curi<S.SpUloax>osidades</S.SpUloax> </S.TittleSecoSection>
                 <S.IntoSectionleft>
