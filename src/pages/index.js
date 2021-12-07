@@ -13,10 +13,10 @@ export default function Index() {
 
   return (
     <div>
-      <GlobalStyle />
       <Helmet>
       <title>Meu BLog</title>
       </Helmet>
+      <GlobalStyle />     
       <Header />
       <Main />
       <Footer />

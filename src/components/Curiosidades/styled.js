@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ContainerSection = styled.section`
+export const ContainerSection = styled.div`
 display:flex;
 flex-direction:column;
 align-items:center;
@@ -85,10 +85,8 @@ flex-direction:column;
 justify-content:space-evenly;
 width:40%;
 text-align:left;
-height:33vh;
-        
+height:33vh;        
 }
-
 
 div > h2 {
     color: white;
