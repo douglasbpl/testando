@@ -26,36 +26,21 @@ export function Header() {
 
   const { logoheader, bthome , btsobre, btform, btcrd, btprj, btcontatos } = data.alldata.headers[0];
 
-//   return (
-//     <S.ContainerHeader id="Home">
-//         <S.ContainerMenuFixed>          
-//           <S.MenuFixed>
-//           <S.IMG src={logoheader.url}  alt="Minha foto em desenho" />            
-//               <S.List>
-//               <Link style={{ color: "white", textDecoration: "none" }} to="#Home"><S.ListItem>{bthome}</S.ListItem></Link>
-//               <Link style={{ color: "white", textDecoration: "none" }} to="#Sobre"><S.ListItem>{btsobre}</S.ListItem></Link>
-//               <Link style={{ color: "white", textDecoration: "none" }} to="#Formação"><S.ListItem>{btform}</S.ListItem></Link>             
-//               <Link style={{ color: "white", textDecoration: "none" }} to="/crd"><S.ListItem>{btcrd}</S.ListItem></Link>
-//               <Link style={{ color: "white", textDecoration: "none" }} to="/prj"><S.ListItem>{btprj}</S.ListItem></Link>    
-//               <Link style={{ color: "white", textDecoration: "none" }} to="#Contatos"><S.ListItem>{btcontatos}</S.ListItem></Link>   
-//               </S.List>            
-//               </S.MenuFixed>         
-//           </S.ContainerMenuFixed>
-//     </S.ContainerHeader>
-//     );
-// }   
-
-return(
-  <div>
-    <img src={logoheader.url}  alt="Minha foto em desenho" />
-    <ul>
-      <li><Link to="#Home" >{bthome}</Link></li>
-      <li><Link to="#Sobre" >{btsobre}</Link></li>
-      <li><Link to="#Formação" >{btform}</Link></li>
-      <li><Link to="/crd" >{btcrd}</Link></li>
-      <li><Link to="/prj" >{btprj}</Link></li>
-      <li><Link to="#Contatos" >{btcontatos}</Link></li>
-    </ul>
-  </div>
-)
-}
+  return (
+    <S.ContainerHeader id="Home">
+        <S.ContainerMenuFixed>          
+          <S.MenuFixed>
+          <S.IMG src={logoheader.url}  alt="Minha foto em desenho" />            
+              <S.List>
+              <Link style={{ color: "white", textDecoration: "none" }} to="#Home"><S.ListItem>{bthome}</S.ListItem></Link>
+              <Link style={{ color: "white", textDecoration: "none" }} to="#Sobre"><S.ListItem>{btsobre}</S.ListItem></Link>
+              <Link style={{ color: "white", textDecoration: "none" }} to="#Formação"><S.ListItem>{btform}</S.ListItem></Link>             
+              <Link style={{ color: "white", textDecoration: "none" }} to="/crd"><S.ListItem>{btcrd}</S.ListItem></Link>
+              <Link style={{ color: "white", textDecoration: "none" }} to="/prj"><S.ListItem>{btprj}</S.ListItem></Link>    
+              <Link style={{ color: "white", textDecoration: "none" }} to="#Contatos"><S.ListItem>{btcontatos}</S.ListItem></Link>   
+              </S.List>            
+              </S.MenuFixed>         
+          </S.ContainerMenuFixed>
+    </S.ContainerHeader>
+    );
+}   
