@@ -18,25 +18,24 @@ export function Projetos() {
         }
     `)
 
-    const { bthome, btcrd, ttlprj} = data.alldata.projetos[0]
+  const { bthome, btcrd } = data.alldata.projetos[0]
   return (
     <div>
-        
-       <S.Container> 
-              <S.ContainerMenuFixed>
-        <S.MenuFixedPM>
-          <ul>
-            <Link style={{ color: "white", textDecoration: "none" }} to="/" ><li>{bthome}</li></Link>
-            <Link  style={{ color: "white", textDecoration: "none" }} to="/crd"><li>{btcrd}</li></Link>
-            
-          </ul>
-        </S.MenuFixedPM>
-      </S.ContainerMenuFixed>        
-                           
-                <S.ContainerSlide>               
-                <SimpleSlider/>
-                </S.ContainerSlide>                          
-        </S.Container >
+
+      <S.Container>
+        <S.ContainerMenuFixed>
+          <S.MenuFixedPM>
+            <S.List>
+              <Link style={{ color: "white", textDecoration: "none" }} to="/"><S.ListItem>{bthome}</S.ListItem></Link>
+              <Link style={{ color: "white", textDecoration: "none" }} to="/crd"><S.ListItem>{btcrd}</S.ListItem></Link>
+            </S.List>
+          </S.MenuFixedPM>
+        </S.ContainerMenuFixed>
+
+        <S.ContainerSlide>
+          <SimpleSlider />
+        </S.ContainerSlide>
+      </S.Container >
     </div>
   )
 }

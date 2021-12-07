@@ -16,33 +16,30 @@ export const MenuFixed = styled.nav`
 display: flex;
 align-items: center;
 justify-content: space-evenly;
-width:100%;
-ul{
-    display:flex;
+width:100%;                     
+`
+export const List = styled.ul`
+display:flex;
     align-items:center;
     justify-content:space-around;
     width:85%;
     height:100%;    
     flex-wrap: wrap;
     list-style:none;
-    font-size:1.3rem;   
-    
-}
-li{
-    display:flex;
+    font-size:1.3rem;
+`
+
+export const ListItem = styled.li`
+display:flex;
     align-items:center;
     justify-content:center;
     border-radius:3%;
     min-width:10vw;
     height:5vh;
-        
-}
-li:hover{
+   &:hover{ 
     background-color: #24ada5;
     color:gold;    
 }
-
-img{
-    width:50px;         
-}                     
 `
+export const IMG = styled.img`
+width:50px;`
