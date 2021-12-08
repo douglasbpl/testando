@@ -3,10 +3,10 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Projeto Blog",
   },
-  plugins: ["gatsby-plugin-styled-components"],
-  plugins: [`gatsby-plugin-react-helmet`],
-  plugins: ['gatsby-plugin-netlify'],
-   plugins: [ {
+  plugins: ["gatsby-plugin-styled-components",
+  `gatsby-plugin-react-helmet`,
+  'gatsby-plugin-netlify',
+    {
       resolve: "gatsby-source-graphql",
       options: {
                 typeName: "alldata",

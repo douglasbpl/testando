@@ -7,8 +7,6 @@ import { Main } from '../components/Main';
 // import Darkmode from '../components/Darkmode/darkmode';
 
 
-
-
 export default function Index() {
 
   return (
